@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template>
   <div id="login">
     <div class="login-wrap">
@@ -193,4 +194,29 @@ export default {
              width: 100%;
          }
   }
+=======
+<template>
+    <div id="login">
+        这里是登录页
+        <el-row>
+                <el-button>默认按钮</el-button>
+                <el-button type="primary">主要按钮</el-button>
+                <el-button type="success">成功按钮</el-button>
+                <el-button type="info">信息按钮</el-button>
+                <el-button type="warning">警告按钮</el-button>
+                <el-button type="danger">危险按钮</el-button>
+        </el-row>
+    </div>
+</template>
+<script>
+export default{
+    name: 'login'
+}
+</script>
+<style lang="scss" scoped>
+#login{
+    height: 100vh;
+    background-color: #344a5f;
+}
+>>>>>>> ae7f0a1a06b0139e932e9d81e36f589f8244ac1c
 </style>
